@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const nameText = "Shams Alalfy";
-    const jobText = "Backend Developer";
+    const jobText = "Full-Stack Developer";
 
     const nameElement = document.getElementById("typing-name");
     const jobElement = document.getElementById("typing-job");

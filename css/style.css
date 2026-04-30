@@ -95,6 +95,7 @@ nav ul li a:hover {
     justify-content: space-between;
     width: 25px;
     height: 20px;
+    margin: 15px;
     cursor: pointer;
 }
 
@@ -315,9 +316,23 @@ section h1 {
     color: #ffffff;
 }
 
-
 /* About */
-.about-cards {
+#about div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#about p {
+    margin-top: 20px;
+    font-size: 25px;
+    opacity: 0.85;
+    max-width: 850px;
+    animation: fadeInUp 1.6s ease forwards;
+    color: #c0c0c0;
+}
+
+/* Experience */
+.Experience-cards {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -326,27 +341,28 @@ section h1 {
     padding: 0 15px;
 }
 
-.about-card {
+.Experience-card {
     background: linear-gradient(145deg, #1b1b1b, #2a2a2a);
     padding: 25px 30px;
     border-radius: 18px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 900px
 }
 
-.about-card:hover {
+.Experience-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
-.about-card h3 {
+.Experience-card h3 {
     color: #d35b5b;
     margin-bottom: 12px;
     font-size: 22px;
     letter-spacing: 0.5px;
 }
 
-.about-card p {
+.Experience-card p {
     color: #ccc;
     font-size: 16px;
     line-height: 1.7;
@@ -359,13 +375,16 @@ section h1 {
     text-align: center;
 }
 
-.about-card p strong {
+.Experience-card p strong {
     color: #fff;
 }
 
 
 @media (max-width: 768px) {
-    .about-card p {
+    .Experience-card {
+        width: 400px
+    }
+    .Experience-card p {
         margin-bottom: 1em;
         line-height: 1.8;
     }
@@ -467,6 +486,11 @@ section h1 {
     align-self: flex-start;
 }
 
+.project-card div {
+    display: flex;
+    justify-content: space-between;
+}
+
 .project-card a:hover {
     background: #b84747;
     transform: scale(1.05);
@@ -513,7 +537,7 @@ section h1 {
         align-items: center;
     }
 
-    .about-cards {
+    .Experience-cards {
         margin: 50px auto;
         padding: 0 10px;
         align-items: center;

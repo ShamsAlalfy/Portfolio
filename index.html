@@ -1,121 +1,178 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shams Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link rel="icon" href="assets/icon.png" type="image/png">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href="assets/icon.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-
-<body>
-
+  <body>
     <canvas id="sakuraCanvas"></canvas>
 
     <!-- Navbar -->
     <nav>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <!-- Home Section -->
     <div class="container" id="home">
-        <div class="left">
-            <h3>Hello, It's Me</h3>
-            <h1>
-                <span id="typing-name"></span>
-            </h1>
+      <div class="left">
+        <h3>Hello, It's Me</h3>
+        <h1>
+          <span id="typing-name"></span>
+        </h1>
 
-            <h2>
-                <span id="typing-job"></span>
-            </h2>
+        <h2>
+          <span id="typing-job"></span>
+        </h2>
 
-            <p>A computer science student specializing in backend development, with a deep interest in designing
-                scalable APIs,
-                clean architectures, and reliable systems that tackle real-world challenges.</p>
+        <p>
+          I work as a freelance developer, delivering responsive, scalable, and
+          user-focused solutions using modern technologies. I focus on clean
+          architecture, performance, and turning client requirements into
+          reliable systems.
+        </p>
+      </div>
+
+      <div class="avatar-wrapper">
+        <div class="avatar">
+          <img src="assets/flowers.jpeg" alt="Avatar" />
         </div>
-
-
-        <div class="avatar-wrapper">
-            <div class="avatar">
-                <img src="assets/flowers.jpeg" alt="Avatar">
-            </div>
-        </div>
+      </div>
     </div>
 
-
-    <!-- About Section -->
     <section id="about">
-        <h1>About Me</h1>
-        <div class="about-cards">
-
-            <!-- Backend Developer Card -->
-            <div class="about-card">
-                <h3>Backend Developer</h3>
-                <p>Experience with <strong>Node.js</strong> & <strong>Laravel</strong>.</p>
-            </div>
-
-            <!-- Problem Solving Card -->
-            <div class="about-card">
-                <h3>Problem Solving</h3>
-                <p>Solved <strong>600+ problems on Codeforces</strong>.</p><br>
-                <p>Strong analytical and logical skills for designing efficient solutions.</p>
-            </div>
-
-            <!-- Community / Memberships -->
-            <div class="about-card">
-                <h3>Community Involvement</h3>
-                <p>Backend Track Member at <strong>IEEE Zagazig CS Chapter</strong> (Dec 2025 – Aug 2026).</p><br>
-                <p>Technical Development Member at <strong>IEEE Zagazig</strong> (Nov 2025 – Present).</p><br>
-                <p>Technical Mentor at <strong>ICPC Zagazig</strong> (Feb 2025 – Present).</p><br>
-                <p>Co-Lead at <strong>ZagEng Backend Node.js Track</strong> (Oct 2025 – Present).</p>
-            </div>
-
-            <!-- Training -->
-            <div class="about-card">
-                <h3>Training</h3>
-                <p>Completed <strong>ITI Fullstack PHP Track Summer Training</strong>.</p>
-            </div>
-
-        </div>
+      <h1>About Me</h1>
+      <div>
+        <p>
+          I’m a Full Stack Developer passionate about building complete web
+          applications from idea to deployment. I enjoy working on both frontend
+          and backend, creating smooth user experiences and reliable systems.
+          I’m always learning and improving my skills to build better, faster,
+          and more efficient applications.
+        </p>
+      </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="Experience">
+      <h1>Experience</h1>
+      <div class="Experience-cards">
+
+        <!-- Internships -->
+          <div class="Experience-card">
+            <h3>Internships</h3>
+            <p>Workin as a <strong>Backend Developer (Node.js)</strong> at <strong>Smart Technology Company</strong> (Feb 2026 - Present)</p>
+            <br />
+        </div>
+          <!-- Community / Memberships -->
+          <div class="Experience-card">
+            <h3>Community Involvement</h3>
+            <p>
+              Co-Lead at <strong>ZagEng Backend Node.js Track</strong> (Oct 2025 –
+              Present).
+            </p>
+            <br />
+            <p>
+              Technical Mentor at <strong>ICPC Zagazig</strong> (Feb 2025 –
+              Present).
+            </p>
+            <br />
+            <p>
+              Technical Development Member at <strong>IEEE Zagazig</strong> (Nov
+              2025 – Present).
+            </p>
+            <br>
+            <p>
+              Backend Track Member at
+              <strong>IEEE Zagazig CS Chapter</strong> (Dec 2025 – Aug 2026).
+            </p>
+            <br />
+        </div>
+        <!-- Training -->
+        <div class="Experience-card">
+          <h3>Training</h3>
+          <p>
+            Completed <strong>ITI Fullstack PHP Track Summer Training</strong>.
+          </p>
+          <br>
+          <p>
+            Completed <strong>NTI Web Design Training</strong>.
+          </p>
+        </div>
+        <!-- Frontend Developer Card -->
+        <div class="Experience-card">
+          <h3>Frontend Developer</h3>
+          <p>
+            Experience with <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Bootstrap</strong>.
+          </p>
+        </div>
+        <!-- Backend Developer Card -->
+        <div class="Experience-card">
+          <h3>Backend Developer</h3>
+          <p>
+            Experience with <strong>Node.js</strong> & <strong>Laravel</strong>.
+          </p>
+        </div>
+
+        <!-- Problem Solving Card -->
+        <div class="Experience-card">
+          <h3>Problem Solving</h3>
+          <p>Solved <strong>600+ problems on Codeforces</strong>.</p>
+          <br />
+          <p>
+            Strong analytical and logical skills for designing efficient
+            solutions.
+          </p>
+        </div>
+
+
+      </div>
+    </section>
 
     <!-- Skills Section -->
     <section id="skills">
-        <h1>My Skills</h1>
-        <div id="skills-wrapper"></div>
+      <h1>My Skills</h1>
+      <div id="skills-wrapper"></div>
     </section>
-
 
     <!-- Projects Section -->
     <section id="projects">
-        <h1>My Projects</h1>
-        <div id="projects-wrapper" class="projects-grid"></div>
+      <h1>My Projects</h1>
+      <div id="projects-wrapper" class="projects-grid"></div>
     </section>
-
-
 
     <!-- Contact Section -->
     <section id="contact">
-        <h1>Contact Me</h1>
-        <div class="contact-icons">
-            <a href="https://github.com/ShamsAlalfy" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/shams-alalfy-bb35a9311/" target="_blank"><i
-                    class="fab fa-linkedin"></i></a>
-            <a href="mailto:shamsalalfy2005@gmail.com"><i class="fas fa-envelope"></i></a>
-        </div>
+      <h1>Contact Me</h1>
+      <div class="contact-icons">
+        <a href="https://github.com/ShamsAlalfy" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/shams-alalfy-bb35a9311/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="mailto:shamsalalfy2005@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
     </section>
-
-
 
     <script src="js/background.js"></script>
     <script src="js/typing.js"></script>
@@ -123,8 +180,5 @@
     <script src="js/projects.js"></script>
     <script src="js/active_tab.js"></script>
     <script src="js/navbar.js"></script>
-
-
-</body>
-
+  </body>
 </html>

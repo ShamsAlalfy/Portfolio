@@ -4,36 +4,37 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Languages",
             skills: [
-                { name: "C++", icon: "fab fa-cuttlefish" },
-                { name: "HTML", icon: "fab fa-html5" },
-                { name: "CSS", icon: "fab fa-css3-alt" },
-                { name: "JavaScript", icon: "fab fa-js-square" },
-                { name: "PHP", icon: "fab fa-php" },
-                { name: "Dart", icon: "fas fa-mobile-alt" }
+                { name: "C++", icon: "fa-solid fa-c" },
+                { name: "HTML", icon: "fa-brands fa-html5" },
+                { name: "CSS", icon: "fa-brands fa-css3-alt" },
+                { name: "JavaScript", icon: "fa-brands fa-square-js" },
+                { name: "Bootstrap", icon: "fa-brands fa-bootstrap"},
+                { name: "PHP", icon: "fa-brands fa-php" },
+                { name: "Dart", icon: "fa-regular fa-mobile" }
             ]
         },
         {
             title: "Backend",
             skills: [
-                { name: "Node.js", icon: "fab fa-node-js" },
-                { name: "Express.js", icon: "fas fa-server" },
-                { name: "Laravel", icon: "fab fa-laravel" }
+                { name: "Node.js", icon: "fa-brands fa-node" },
+                { name: "Express.js", icon: "fa-brands fa-node-js" },
+                { name: "Laravel", icon: "fa-brands fa-laravel" }
             ]
         },
         {
             title: "Databases",
             skills: [
-                { name: "MySQL", icon: "fas fa-database" },
-                { name: "MongoDB", icon: "fas fa-database" }
+                { name: "MySQL", icon: "fa-solid fa-database" },
+                { name: "MongoDB", icon: "fa-solid fa-database" }
             ]
         },
         {
             title: "Tools",
             skills: [
-                { name: "Git", icon: "fab fa-git-alt" },
-                { name: "GitHub", icon: "fab fa-github" },
-                { name: "VSCode", icon: "fas fa-code" },
-                { name: "Postman", icon: "fas fa-paper-plane" },
+                { name: "Git", icon: "fa-brands fa-git-alt" },
+                { name: "GitHub", icon: "fa-brands fa-github" },
+                { name: "VSCode", icon: "fa-solid fa-code" },
+                { name: "Postman", icon: "fa-brands fa-telegram" },
                 { name: "LaTeX", icon: "fas fa-file-alt" },
                 { name: "Markdown", icon: "fas fa-book" }
             ]
