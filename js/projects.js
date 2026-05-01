@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 `;
     } else {
       card.innerHTML += `
-                <a href="${project.left}" target="_blank" class="left">View on GitHub</a>
+                <a href="${project.link}" target="_blank" class="left">View on GitHub</a>
                 `;
     }
     projectsWrapper.appendChild(card);
