@@ -36,7 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "VSCode", icon: "fa-solid fa-code" },
                 { name: "Postman", icon: "fa-brands fa-telegram" },
                 { name: "LaTeX", icon: "fas fa-file-alt" },
-                { name: "Markdown", icon: "fas fa-book" }
+                { name: "Markdown", icon: "fas fa-book" },
+                { name: "Figma", icon: "fa-brands fa-figma" } 
             ]
         }
     ];

@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", () => {
       live: "https://helton-hotel-ivory.vercel.app",
     },
     {
+      title: "Essenza Cosmatics Website",
+      description: "Essenza is a cosmetics e-commerce website that I designed and developed, featuring products, offers, cart, checkout, and an admin dashboard.",
+      category: "Frontend", 
+      live: "https://www.figma.com/design/cnVKWJNMzs7NzDOw7cYixz/Cosmatics-website?node-id=0-1&t=otjwJqWPA4BanztZ-1"
+    },
+    {
       title: "Knowledge Vault",
       description:
         "A Node.js + Express backend for managing a digital library. It supports user accounts, subscriptions, and book management.",
