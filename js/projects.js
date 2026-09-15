@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       category: "Frontend",
       github:
         "https://github.com/ShamsAlalfy/NTI-Web-Design/tree/main/Helton%20Hotel",
-      live: "https://helton-hotel.netlify.app",
+      live: "https://helton-hotel-ivory.vercel.app",
     },
     {
       title: "Knowledge Vault",
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       category: "Frontend",
       github:
         "https://github.com/ShamsAlalfy/NTI-Web-Design/tree/main/OmniFood",
-      live: "https://oomni-foodd.netlify.app",
+      live: "https://omni-food-drab-rho.vercel.app",
     },
     {
       title: "E-Commerce Platform",
@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
       link: "https://github.com/ShamsAlalfy/E-Commerce.git",
     },
     {
-      title: "Fitness",
+      title: "FixIt",
       description:
-        "A simple Gym landing page built with HTML and CSS showcasing services, features, and membership info in a clean design.",
+        "FixIt is a responsive Arabic RTL landing page for a mobile and laptop repair center. It showcases the center’s services and provides a simple maintenance request form, built using HTML, Bootstrap 5, CSS, and Font Awesome.",
       category: "Frontend",
-      github: "https://github.com/ShamsAlalfy/NTI-Web-Design/tree/main/Fitness",
-      live: "https://fiitnesssss.netlify.app/",
+      github: "https://github.com/ShamsAlalfy/NTI-Web-Design/tree/main/FixIt",
+      live: "https://fixit-pi-eight.vercel.app",
     },
     {
       title: "Hogwarts for Programming",
@@ -48,19 +48,27 @@ document.addEventListener("DOMContentLoaded", () => {
       link: "https://github.com/ShamsAlalfy/Hogwarts-for-programming.git",
     },
     {
-      title: "Contact Book Manager",
+      title: "Fitness",
       description:
-        "A C++ application for managing contacts with add, search, update, and delete features. Supports classification (Friends, Family, Work, Favorites), file storage, and reversing/clearing the contact list.",
-      category: "Basics",
-      link: "https://github.com/ShamsAlalfy/Contact-Book-Manager.git",
+        "A simple Gym landing page built with HTML and CSS showcasing services, features, and membership info in a clean design.",
+      category: "Frontend",
+      github: "https://github.com/ShamsAlalfy/NTI-Web-Design/tree/main/Fitness",
+      live: "https://fitness-dusky-two.vercel.app",
     },
-    {
-      title: "Quran Playlist Manager",
-      description:
-        "A C++ application for creating and managing Quran playlists using a custom Doubly Linked List. Supports adding, updating, deleting, and reordering Surahs, audio playback controls, and saving/loading playlists to files.",
-      category: "Basics",
-      link: "https://github.com/ShamsAlalfy/Quran-Playlist.git",
-    },
+    // {
+    //   title: "Contact Book Manager",
+    //   description:
+    //     "A C++ application for managing contacts with add, search, update, and delete features. Supports classification (Friends, Family, Work, Favorites), file storage, and reversing/clearing the contact list.",
+    //   category: "Basics",
+    //   link: "https://github.com/ShamsAlalfy/Contact-Book-Manager.git",
+    // },
+    // {
+    //   title: "Quran Playlist Manager",
+    //   description:
+    //     "A C++ application for creating and managing Quran playlists using a custom Doubly Linked List. Supports adding, updating, deleting, and reordering Surahs, audio playback controls, and saving/loading playlists to files.",
+    //   category: "Basics",
+    //   link: "https://github.com/ShamsAlalfy/Quran-Playlist.git",
+    // },
   ];
 
   const projectsWrapper = document.getElementById("projects-wrapper");
@@ -74,9 +82,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>${project.description}</p>
             `;
     if (project.category == "Frontend") {
+      // <a href="${project.github}" target="_blank" class="left">View on GitHub</a>
       card.innerHTML += `
                 <div>
-                    <a href="${project.github}" target="_blank" class="left">View on GitHub</a>
                     <a href="${project.live}" target="_blank" class="right">Link</a>
                 </div>
                 `;
