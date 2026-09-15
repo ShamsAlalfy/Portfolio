@@ -347,7 +347,9 @@ section h1 {
     border-radius: 18px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 900px
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
 }
 
 .Experience-card:hover {
@@ -381,9 +383,16 @@ section h1 {
 
 
 @media (max-width: 768px) {
+    @media (max-width: 768px) {
     .Experience-card {
-        width: 400px
+        width: 100%;
+        padding: 20px;
     }
+    .Experience-card p {
+        margin-bottom: 1em;
+        line-height: 1.8;
+    }
+}
     .Experience-card p {
         margin-bottom: 1em;
         line-height: 1.8;
